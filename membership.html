@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webtek-FC</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <main>
+        <h1>Bli medlem</h1>
+        <img id="membershipImg" src="https://s3-alpha.figma.com/hub/file/948140848/1f4d8ea7-e9d9-48b7-b70c-819482fb10fb-cover.png" alt="">
+        <p class="p1"> 
+            Vi i Webtek FC ønsker alle velkommen. Om du ønsker og bli god i fotball, eller bare synes sporten er gøy og er
+            interesert i å bli kjent med nye kan du sende inn skjema for å bli med på laget. Vi har mange ulike lag som du kan lese om på Om oss
+            og du kan være sikker på å finne noe for deg<br> Webtek FC er ikke den samme uten sine frivilige og 
+            om du har barn eller venner som spiller i klubben og ønske å bli mer inkludert i sporten deres men ikke ønsker å spille selv
+            kan du jobbe som frivillig i klubben. Uansett hvordan du velger å delta i klubben kan du være sikker på å møte mange hyggelige
+            mennesker og et hyggelig miljø. <br> Bli med da vel!
+        </p>
+        <section id="formGrid">
+            <div>
+                <h3>Bli med på laget</h3>
+                <p class="p2">Vi trenger flere spillere på både herre og kvinne lagene. Vi har lag for all alder og vi ønsker alle velkomen. </p>
+                <hr>
+                <form action="https://folk.ntnu.no/anderobs/webtek/receive_form.php">
+                    <label for="Fname">Fornavn
+                        <input name="Fname" type="text" placeholder="Ola" required>
+                    </label>
+                    <label for="Lname">Etternavn
+                        <input name="Lname" type="text" placeholder="Nordman" required>
+                    </label>
+                    <label for="birthdate">Birthdate
+                        <input id="birthdate" name="birthdate" type="date" max="1989-01-01" required>
+                    </label>
+                    <label for="adress">Gate adresse
+                        <input name="adress" type="street"  max="1989-01-01" placeholder="Kongensgate 34A" required>
+                    </label>
+                    <label for="email">E-mail
+                        <input name="email" type="email" placeholder="example@email.com" required>
+                    </label>
+                    <label for="tlf">Telefon nummer
+                        <input name="tlf" type="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="123-45-678" required>
+                    </label>
+                    <button class="knapper">Bli medlem!</button>
+                </form>
+            </div>
+            <div class="forms">
+                <h3>Jobb som frivillig</h3>
+                <p class="p2">Klubben er avhengig av frivillige som kan stille på diverse arrangement som fotballkamp, loppemarked og dugnad.</p>
+                <hr>
+                <form action="https://folk.ntnu.no/anderobs/webtek/receive_form.php">
+                    <label for="Fname">Fornavn
+                        <input name="Fname" type="text" placeholder="Ola" required>
+                    </label>
+                    <label for="Lname">Etternavn
+                        <input name="Lname" type="text" placeholder="Nordman" required>
+                    </label>
+                    <label for="birthdate">Birthdate
+                        <input id="birthdate" name="birthdate" type="date" max="1989-01-01" required>
+                    </label>
+                    <label for="adress">Gate adresse
+                        <input name="adress" type="street"  max="1989-01-01" placeholder="Kongensgate 34A" required>
+                    </label>
+                    <label for="email">E-mail
+                        <input name="email" type="email" placeholder="example@email.com" required>
+                    </label>
+                    <label for="tlf">Telefon nummer
+                        <input name="tlf" type="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="123-45-678" required>
+                    </label>
+                    <button class="knapper">Bli medlem!</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
